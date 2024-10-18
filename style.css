@@ -122,3 +122,49 @@ img {
     padding: 0 200px;
     font-size: 20px;
 }
+
+.four {
+    display: flex;
+    flex-direction: column;
+    height: 450px;
+}
+
+.top {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 350px;
+}
+
+.bluebox {
+    background-color: #3882F6;
+    color: white;
+    display: flex;
+    flex: 1;
+    margin: 0 200px;
+    padding: 50px 100px;
+    justify-content: space-between;
+    border-radius: 12px;
+}
+
+.action {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 8px;
+}
+
+.button2 {
+    border: solid white;
+    font-weight: 700;
+}
+
+.footer {
+    background-color: #FF8C00;
+    display: flex;
+    height: 100px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 16px;
+}
